@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" min="-2" pref="592" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" min="-2" pref="364" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="13" style="2"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Ayuda de Sumatoria de N&#xfa;meros:&#xa;&#xa;     &#xc9;sta ventana calcula el resultado de sumatorias de n&#xfa;mero enteros elevados a la potencia&#xa;ingresada. Los par&#xe1;metros solicitados son:&#xa;- N&#xfa;mero entero positivo desde donde se comienza la sumatoria.&#xa;- N&#xfa;mero entero positivo hasta donde se realizar&#xe1; la sumatoria.&#xa;- Valor para el exponente al cual se elevar&#xe1;n los n&#xfa;meros de la sumatoria.&#xa;    Ejemplo: Sumatoria del 1 hasta el 5 con potencia al cuadrado.&#xa;                 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 1 + 4 + 9 + 16 + 25 = 55&#xa;     La forma de calcular la sumatoria es la siguiente:&#xa;&#xa;1. Ingrese un n&#xfa;mero entero positivo en el campo que lo solicita. Este servir&#xe1; como tope (hasta&#xa;  donde llegar&#xe1; la sumatoria).&#xa;2. Ingrese otro n&#xfa;mero entero en el campo siguiente. &#xc9;ste servir&#xe1; para hacerle saber al programa&#xa;  desde donde comenzar&#xe1; la sumatoria. Es importante que el n&#xfa;mero sea menor al primero.&#xa;3. Ingrese un valor para el exponente que llevar&#xe1; cada n&#xfa;mero de la sumatoria.&#xa;4. Haga click en el bot&#xf3;n &quot;Realizar Sumatoria&quot;.&#xa;5. El resultado se mostrar&#xe1; en el campo respectivo."/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="8">
+                  <Color PropertyName="color" blue="0" green="99" red="99" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
